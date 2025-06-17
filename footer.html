@@ -30,8 +30,8 @@
     }
 
     iframe {
-      border-radius: 5px;
-      max-width: 100%;
+      border-radius: 0px;
+      max-width: 60%;
     }
 
     @media (max-width: 768px) {
@@ -45,30 +45,34 @@
         margin: 1rem auto 0;
       }
     }
+    .fst-italic:hover{
+      transform: translateX(10px);
+      transition: .5s;
+    }
   </style>
 </head>
 
 <body>
-  <section class="bg-darkblue text-warning footer-section">
+  <section class="bg-dark text-warning footer-section">
     <div class="container-fluid">
       <div class="row g-4">
         <!-- Left Info -->
         <div class="col-lg-4 col-md-6">
           <div class="fthead">
             <h4 class="fw-bold d-flex align-items-center">
-              <img src="images/logo.jpeg" height="25" alt="Logo" class="me-2" />
-              DIS Management Pvt Ltd
+              <img src="images/logo.jpeg" height="25" alt="Logo" class="me-2 rounded-circle" />
+              Paragliding  Adventure Activities
             </h4>
             <p class="text-white">
-              DIS Management Services Private Limited is a reputed service provider in the field of Total Security Solution, Integrated Facility Management.
+              <!-- DIS Management Services Private Limited is a reputed service provider in the field of Total Security Solution, Integrated Facility Management. -->
             </p>
             <p class="text-white mb-1 fw-bold">Phone:</p>
-            <a href="tel:+919051972409" class="text-white d-block">+91 9051972409</a>
-            <a href="tel:+917602823509" class="text-white d-block mb-2">+91 7602823509</a>
+            <a href="tel:+917618500025" class="text-white d-block fst-italic">+91 7618500025</a>
+            <a href="tel:+919837500025" class="text-white d-block mb-2 fst-italic">+91 9837500025</a>
             <p class="text-white mb-1 fw-bold">Mail:</p>
-            <a href="mailto:Dis.facility@outlook.com" class="text-white d-block mb-2">Dis.facility@outlook.com</a>
+            <a href="mailto:Dis.facility@outlook.com" class="text-white d-block mb-2 fst-italic">yourmail</a>
             <p class="text-white fw-bold mb-0">Registered office:</p>
-            <p class="text-white">C-5 School Road, Panihati, Sodepur, Kolkata 700110</p>
+            <p class="text-white fst-italic">Rishikesh Address</p>
           </div>
         </div>
 
@@ -76,22 +80,20 @@
         <div class="col-lg-4 col-md-6">
           <div class="row">
             <div class="col-6 fthead">
-              <h4 class="fw-bold">Services</h4>
-              <p class="text-white" onclick="location.href='security.html'">Security Guard</p>
-              <p class="text-white" onclick="location.href='housekeeping.html'">Housekeeping</p>
-              <p class="text-white" onclick="location.href='officeboy.html'">Office Boy</p>
-              <p class="text-white" onclick="location.href='bouncer.html'">Bouncer & Gunman</p>
-              <p class="text-white" onclick="location.href='electrician.html'">Electrician & Plumber</p>
-              <p class="text-white" onclick="location.href='gardener.html'">Gardener & Lift Man</p>
-              <p class="text-white" onclick="location.href='waiter.html'">Waiter & Hospitality Staff</p>
-              <p class="text-white" onclick="location.href='payroll.html'">Payroll Management</p>
+              <h4 class="fw-bold">Packages</h4>
+              <p class="text-white fst-italic" onclick="location.href='paraglide.html'">Paragliding in Rishikesh</p>
+              <p class="text-white fst-italic" onclick="location.href='rafting.html'">Rafting in Rishikesh</p>
+              <p class="text-white fst-italic" onclick="location.href='bunjee.html'">Bunjee in Rishikesh</p>
+              <p class="text-white fst-italic" onclick="location.href='camping.html'">Camping in Rishikesh</p>
+              <p class="text-white fst-italic" onclick="location.href='bikerent.html'">Bike on rent Rishikesh</p>
             </div>
             <div class="col-6 fthead">
               <h4 class="fw-bold">Quick Links</h4>
-              <p class="text-white" onclick="location.href='career.html'">Career</p>
-              <p class="text-white" onclick="location.href='media.html'">Media</p>
-              <p class="text-white" onclick="location.href='testimonial.html'">Testimonial</p>
-              <p class="text-white" onclick="location.href='contact.html'">Contact</p>
+              <p class="text-white fst-italic" onclick="location.href='index.html'">Home</p>
+              <p class="text-white fst-italic" onclick="location.href='media.html'">Media</p>
+              <p class="text-white fst-italic" onclick="location.href='career.html'">Career</p>
+              <!-- <p class="text-white" onclick="location.href='testimonial.html'">Testimonial</p> -->
+              <p class="text-white fst-italic" onclick="location.href='contact.html'">Contact</p>
             </div>
           </div>
         </div>
@@ -108,7 +110,7 @@
     </div>
   </section>
 
-  <div class="bg-dark w-100 text-center text-light py-2">
+  <div class="bg-secondary w-100 text-center text-light py-0 fw-bold">
     <a href="https://www.royinformatics.com" class="text-white text-decoration-none">© 2024 Roy Informatics Pvt. Ltd. All rights reserved.</a>
   </div>
 </body>

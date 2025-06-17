@@ -21,7 +21,7 @@
     margin: 0px auto;
     /* height: 100vh; */
     /* border: solid 1px var(--theme-blue); */
-    font-family: Plus Jakarta Sans;
+    font-family: "Bai Jamjuree";
 }
 .navitemcontainer{
     margin-left: auto;
@@ -117,7 +117,7 @@ a{
 .owl-carousel .imgbox{
     /* width: 300px; */
     /* max-height: 400px; */
-    height: 300px;
+    /* height: 300px; */
     margin: 10px auto;
     margin-bottom: 20px;
     border-radius: 2px;
@@ -127,6 +127,9 @@ a{
     align-items: center;
     transition: .4s;
     /* text-align: center; */
+}
+.fst-italic{
+    color: aqua;
 }
 .owl-carousel .imgbox:hover{
     box-shadow: 0 10px 10px 1px silver;
