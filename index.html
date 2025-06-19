@@ -158,7 +158,19 @@
     .p-c{
         cursor: pointer;
     }
-    
+    .fixedwp{
+        position: fixed;
+        top: 50%;
+        right: 0px;
+        font-size: 2rem;
+        color: white;
+        transform: translate(60px, 0px);
+        background-color: green;
+        padding: .7rem;
+        border-radius: 0.2rem;
+        width: 110px;
+        box-shadow: 0 0 5px darkslategray;
+    }
     </style>
 </head>
 <body>
@@ -262,6 +274,11 @@
                 </button>
             </div>
         </section>
+        <a href="https://wa.me/917618500025" target="_blank" rel="noopener">
+            <div class="fixedwp">
+                <i class="fa-brands fa-whatsapp"></i>
+            </div>
+        </a>
         <section class="py-5 bg-light w-100">
             <h2 class="fw-bold mb-5 text-center">About Us</h2>
         <div class="container">
@@ -327,6 +344,7 @@
                 </div>
             </div>
         </section>
+        
         <!-- <section class="py-5 w-100" style="background-color: #d6d6d6;">
         <div class="container">
             <div class="row g-4">
@@ -649,7 +667,7 @@ document.getElementById("careerForm").addEventListener("submit", function(e){
   e.preventDefault();
 
   // Replace with your WhatsApp number (with country code, no +)
-  var phone = "91xxx...";
+  var phone = "917618500025";
 
   var name = document.getElementById("name").value;
   var email = document.getElementById("email").value;
