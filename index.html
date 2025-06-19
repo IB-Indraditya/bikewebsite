@@ -170,11 +170,18 @@
         border-radius: 0.2rem;
         width: 110px;
         box-shadow: 0 0 5px darkslategray;
+        transition: .5s;
+        z-index: 10000;
     }
     .fixedcl{
         top: 40%;
         background-color: white;
         color: green;
+    }
+    .fixedwp:hover, .fixedcl:hover{
+        background-color: transparent;
+        color: greenyellow;
+        transform: translate(40px, 0px) scale(.85);;
     }
     </style>
 </head>
